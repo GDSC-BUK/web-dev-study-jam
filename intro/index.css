@@ -1,0 +1,14 @@
+body {
+  background-color: #333;
+}
+
+label,
+h1,
+h2,
+p {
+  color: white;
+}
+
+a {
+  color: coral;
+}

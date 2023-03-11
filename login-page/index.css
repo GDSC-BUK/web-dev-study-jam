@@ -1,0 +1,39 @@
+body {
+  background-color: #333;
+}
+
+form {
+  display: grid;
+  place-content: center;
+  place-items: center;
+  gap: 0.5rem;
+  height: 100%;
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: white;
+}
+
+button {
+  width: 100%;
+  background-color: blueviolet;
+  color: white;
+}
+
+button,
+input {
+  border-radius: 0.6rem;
+  border: none;
+  padding: 0.5rem;
+}
+
+h4 {
+  color: white;
+  font-family: monospace;
+  font-size: 1.5rem;
+}
